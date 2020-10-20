@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="516950c0-771e-48e9-9331-b3792f11830c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bundle2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/indexv2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/indexv2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +30,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iyAEx3ltZNXs0oK02473FV6MwW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -88,7 +95,7 @@
       <workItem from="1603022016197" duration="17601000" />
       <workItem from="1603190354287" duration="2009000" />
       <workItem from="1603192681075" duration="2469000" />
-      <workItem from="1603203852955" duration="5016000" />
+      <workItem from="1603203852955" duration="6807000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1603210274423</created>
@@ -97,13 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603210274423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First">
+      <created>1603211086891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603211086891</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First" />
     <option name="LAST_COMMIT_MESSAGE" value="First" />
   </component>
@@ -116,10 +131,10 @@
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1155" y="-399" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603024077119" />
-    <state x="-1335" y="-623" key="CommitChangelistDialog2" timestamp="1603210219824">
+    <state x="-1335" y="-629" key="CommitChangelistDialog2" timestamp="1603211086033">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="-623" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603210219824" />
+    <state x="-1335" y="-629" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603211086033" />
     <state width="1049" height="275" key="GridCell.Tab.0.bottom" timestamp="1602885314032">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
@@ -140,10 +155,10 @@
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1459" y="-470" key="SettingsEditor/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603192653457" />
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603210305400">
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603211091741">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603210305400" />
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603211091741" />
     <state x="-1297" y="-410" width="672" height="678" key="search.everywhere.popup" timestamp="1603192664270">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>

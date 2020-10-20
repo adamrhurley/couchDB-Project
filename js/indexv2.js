@@ -44,7 +44,7 @@ window.onload = function (){
 
 }
 
-module.exports=function insert()
+function insert()
 {
     window.alert("Step 5 Done!")//idNum++
     var title ="aaa111222333" //document.getElementById('title');
