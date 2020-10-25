@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="516950c0-771e-48e9-9331-b3792f11830c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/update.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/updateBundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/viewBundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/deleteBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/indexv2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/indexv2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,19 +70,16 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
+      <command value="start" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -118,7 +103,7 @@
       <workItem from="1603542591766" duration="7176000" />
       <workItem from="1603625736920" duration="4348000" />
       <workItem from="1603630632260" duration="8545000" />
-      <workItem from="1603647085523" duration="8202000" />
+      <workItem from="1603647085523" duration="9449000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1603210274423</created>
@@ -141,23 +126,36 @@
       <option name="project" value="LOCAL" />
       <updated>1603213304785</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added View, Update &amp; Delete. All 99%  Working">
+      <created>1603656738218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603656738218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First" />
     <MESSAGE value="Insert Working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insert Working" />
+    <MESSAGE value="Added View, Update &amp; Delete. All 99%  Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added View, Update &amp; Delete. All 99%  Working" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1205" y="-295" key="#Notifications" timestamp="1603192639036">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1205" y="-295" key="#Notifications/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603192639036" />
+    <state x="-1506" y="-460" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603657888432">
+      <screen x="-1920" y="-635" width="1920" height="1040" />
+    </state>
+    <state x="-1506" y="-460" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603657888432" />
     <state x="-1155" y="-399" key="#com.intellij.ide.util.MemberChooser" timestamp="1603024077119">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
@@ -166,10 +164,10 @@
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1230" y="-368" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603630180967" />
-    <state x="-1335" y="-629" key="CommitChangelistDialog2" timestamp="1603213300960">
+    <state x="-1335" y="-629" key="CommitChangelistDialog2" timestamp="1603656732984">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="-629" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603213300960" />
+    <state x="-1335" y="-629" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603656732984" />
     <state width="1049" height="275" key="GridCell.Tab.0.bottom" timestamp="1602885314032">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
@@ -190,10 +188,10 @@
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1459" y="-470" key="SettingsEditor/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603192653457" />
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603213312007">
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603656762391">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603213312007" />
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603656762391" />
     <state x="-1297" y="-410" width="672" height="678" key="search.everywhere.popup" timestamp="1603192664270">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
