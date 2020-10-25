@@ -3,7 +3,6 @@
 //import Nano from "nano";
 const nano = require('nano')('http://adam:1234@localhost:5984/')
 const dataBr = nano.use('reminders-app');
-window.alert("HERE")
 
 
 /*var express = require('express')
@@ -29,34 +28,30 @@ console.log("server is running. check expressjs.org for more cool tricks");
 alice.insert({ happy: true }, 'rabbit').then((body) => {
     console.log(body);
 });*/
-//var idNum = 0;
+
+
 
 window.onload = function (){
-    window.alert("Step 1 Done!")
     var buttonElement = document.getElementById("button");
-    window.alert("Step 2 Done!")
+
 
     if (buttonElement){
-        window.alert("Step 3 Done!")
         buttonElement.addEventListener('click',insert);
-        window.alert("Step 4 Done!")
     }
 
 }
 
 function insert()
 {
-    window.alert("Step 5 Done!")//idNum++
-    var title ="aaa111222333" //document.getElementById('title');
-    var reminder = "zzz111222333" //document.getElementById('reminder');
-    window.alert("Step 6 Done!")
-    dataBr.insert({ Title: title, Reminder: reminder },"ttt").then((body) => {
+    var title = document.getElementById('title').toISOString();
+    var reminder = document.getElementById('reminder').toISOString();
+window.alert(title);
+    dataBr.insert({ Title: title, Reminder: reminder },title.toLowerCase).then((body) => {
         console.log(body);
-        window.alert("Step 7 Done!")
-        //return idNum;
+    }
+    );
+}
 
-    });}
-window.alert("Step 8 Done!")
 
 
 
