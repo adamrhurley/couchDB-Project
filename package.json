@@ -4,7 +4,8 @@
   "description": "",
   "main": "indexv2.js",
   "scripts": {
-    "start": "index.html"
+    "start": "node server.js"
+
   },
   "keywords": [],
   "author": "",

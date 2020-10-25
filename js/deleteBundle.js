@@ -39249,13 +39249,11 @@ function extend() {
 
         var title;
         var revNum;
+        var reminder;
 
         window.onload = function (){
-            console.log("Step 1")
             var buttonElement = document.getElementById("button");
-
             if (buttonElement){
-                console.log("Step 2")
                 buttonElement.addEventListener('click',getRevNum);
             }
 
@@ -39263,28 +39261,25 @@ function extend() {
 
         function getRevNum()
         {
-            console.log("Step 3")
             title = document.getElementById('title').value;
             dataBr.get(title.toLowerCase()).then((body) => {
-                console.log("Step 4")
-                var revNum;
+
                 revNum = (body._rev).toString();
-                //console.log(revNum);
-                //deleteDoc();
+                deleteDoc(revNum);
             });
 
         }
 
 
-        function deleteDoc()
+        function deleteDoc(revisionN)
         {
-            console.log("Step 5");
-            dataBr.destroy('wwwwww','1-a0bf06389909c695ba192de614744f69').then((body) => {
+           var revNo = revisionN
+            dataBr.destroy(title,revNo).then((body) => {
                 console.log("Delete Done");
             });
 
         }
-        window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/delete.html");
+       // window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/delete.html");
 
 },{"nano":369}],257:[function(require,module,exports){
 'use strict';

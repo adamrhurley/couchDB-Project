@@ -39243,49 +39243,48 @@ function extend() {
 }
 
 },{}],256:[function(require,module,exports){
-const nano = require('nano')('http://adam:1234@localhost:5984/')
-const dataBr = nano.use('reminders-app');
+
+        const nano = require('nano')('http://adam:1234@localhost:5984/')
+        const dataBr = nano.use('reminders-app');
 
 
-var title;
-
-window.onload = function (){
-    var buttonElement = document.getElementById("button");
-
-
-    if (buttonElement){
-        buttonElement.addEventListener('click',getRevNum);
-    }
-
-}
-
-function getRevNum()
-{
-    console.log("Step 3")
-    title = document.getElementById('title').value;
-    console.log()
-    dataBr.get(title.toLowerCase()).then((body) => {
-        console.log("Step 4")
+        var title;
         var revNum;
-        revNum = (body._rev).toString();
-        insertDoc(revNum);
-    });
+        var reminder;
 
-}
-
-function insertDoc(revisionN)
-{
-    var revNo = revisionN;
-
-    var reminder = document.getElementById('reminder').value;
-    dataBr.insert({ _id: title.toLowerCase(), _rev: revNo, Reminder: reminder }).then((body) => {
-            console.log("Success");
+        window.onload = function (){
+            var buttonElement = document.getElementById("button");
+            if (buttonElement){
+                buttonElement.addEventListener('click',getRevNum);
+            }
 
         }
-    );
 
-}
-//window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/update.html");
+        function getRevNum()
+        {
+            title = document.getElementById('title').value;
+            dataBr.get(title.toLowerCase()).then((body) => {
+
+                revNum = (body._rev).toString();
+                insertDoc(revNum);
+            });
+
+        }
+
+        function insertDoc(revisionN)
+        {
+            var revNo = revisionN
+            var reminder = prompt("New Reminder");
+
+           // dataBr.insert({ _id: title.toLowerCase(), _rev: revNo, Title: title, Reminder: reminder }).then((body) => {
+            dataBr.insert({ _id: title, _rev: revNo, Title: title, Reminder: reminder }).then((body) => {
+                    console.log("Success")
+
+                }
+            );
+           // window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/update.html");
+        }
+
 },{"nano":369}],257:[function(require,module,exports){
 'use strict';
 
