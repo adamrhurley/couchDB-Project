@@ -39250,7 +39250,6 @@ function extend() {
 
         var title;
         var revNum;
-        var reminder;
 
         window.onload = function (){
             var buttonElement = document.getElementById("button");
@@ -39263,10 +39262,12 @@ function extend() {
         function getRevNum()
         {
             title = document.getElementById('title').value;
-            dataBr.get(title.toLowerCase()).then((body) => {
+            console.log(typeof title)
+            dataBr.get(title).then((body) => {
 
-                revNum = (body._rev).toString();
-                insertDoc(revNum);
+                revNum = (body._rev).toString()
+                console.log(typeof revNum)
+                insertDoc(revNum)
             });
 
         }
@@ -39282,9 +39283,9 @@ function extend() {
 
                 }
             );
-           // window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/update.html");
-        }
 
+        }
+       // window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/update.html");
 },{"nano":369}],257:[function(require,module,exports){
 'use strict';
 

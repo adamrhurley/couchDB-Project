@@ -39,4 +39,4 @@ function insertDoc(revisionN)
     );
 
 }
-//window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/update.html");
+window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/update.html");

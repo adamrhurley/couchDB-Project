@@ -39262,9 +39262,10 @@ function extend() {
         function getRevNum()
         {
             title = document.getElementById('title').value;
-            dataBr.get(title.toLowerCase()).then((body) => {
+            dataBr.get(title).then((body) => {
 
-                revNum = (body._rev).toString();
+                revNum = (body._rev);
+                console.log(typeof revNum)
                 deleteDoc(revNum);
             });
 
@@ -39275,7 +39276,7 @@ function extend() {
         {
            var revNo = revisionN
             dataBr.destroy(title,revNo).then((body) => {
-                console.log("Delete Done");
+                window.alert("Deleted Succesfully");
             });
 
         }

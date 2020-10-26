@@ -39247,9 +39247,11 @@ function extend() {
 const nano = require('nano')('http://adam:1234@localhost:5984/')
 const dataBr = nano.use('reminders-app');
 
+var numReminders = 0;
+
 dataBr.list({include_docs: true}).then((body) => {
     body.rows.forEach((doc) => {
-
+        //if(body.Title) {
         var para = document.createElement("p");
         var node = document.createTextNode(JSON.stringify(doc.doc));
         para.appendChild(node);
@@ -39257,8 +39259,23 @@ dataBr.list({include_docs: true}).then((body) => {
         var element = document.getElementById("remindersList");
 
         element.appendChild(para);
-    });
+         });
 });
+
+        dataBr.view('allDocs', 'allDocs', {reduce: true}).then((body) => {
+
+               body.rows.forEach((doc) => {
+
+                       numReminders += doc.value
+                       var para = document.createElement("p");
+                       var node = document.createTextNode("You have " + numReminders + " reminders saved");
+                       para.appendChild(node);
+
+                       var element = document.getElementById("remindersCount");
+
+                       element.appendChild(para);
+                   });
+           });
        /* dataBr.get('adam').then((body) => {
             console.log(body._rev);
         });*/
@@ -77315,7 +77332,7 @@ Request.prototype.init = function (options) {
     self.path = '/'
   }
 
-  // Auth must happen last in case signing is dependent on other headers
+  // Auth must happen last in case signing is dependent on other headersdataBr
   if (options.aws) {
     self.aws(options.aws)
   }

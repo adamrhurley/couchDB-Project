@@ -39291,7 +39291,7 @@ function extend() {
             var title = document.getElementById('title').value;
             var reminder = document.getElementById('reminder').value;
             dataBr.insert({ Title: title, Reminder: reminder },title.toLowerCase()).then((body) => {
-                    console.log(body);
+                    window.alert("Added Succesfully")
 
                 }
             );
