@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="516950c0-771e-48e9-9331-b3792f11830c" name="Default Changelist" comment="CRUD Working. Possible Networking Issue">
+    <list default="true" id="516950c0-771e-48e9-9331-b3792f11830c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/adhoc-db-creation.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/delete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/deleteBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/deleteBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pipe-in.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/indexv2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/indexv2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/update.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/updateBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/updateBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/uuids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/viewBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/viewBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reminders.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,7 @@
       <workItem from="1603647085523" duration="11055000" />
       <workItem from="1603659880911" duration="4354000" />
       <workItem from="1603664466690" duration="834000" />
-      <workItem from="1603713127900" duration="6148000" />
+      <workItem from="1603713127900" duration="7016000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1603210274423</created>
@@ -160,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603664496340</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CRUD Working. Possible Networking Issue">
+      <created>1603728276233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603728276233</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,10 +197,10 @@
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1230" y="-368" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603630180967" />
-    <state x="-1335" y="-629" key="CommitChangelistDialog2" timestamp="1603727782706">
+    <state x="-1335" y="-629" key="CommitChangelistDialog2" timestamp="1603728268936">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="-629" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603727782706" />
+    <state x="-1335" y="-629" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603728268936" />
     <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1603659835935">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
@@ -217,10 +221,10 @@
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1459" y="-470" key="SettingsEditor/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603192653457" />
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603664504202">
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603728304532">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603664504202" />
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603728304532" />
     <state x="-1297" y="-410" width="672" height="678" key="search.everywhere.popup" timestamp="1603658373612">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>

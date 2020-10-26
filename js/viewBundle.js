@@ -39276,12 +39276,6 @@ dataBr.list({include_docs: true}).then((body) => {
                        element.appendChild(para);
                    });
            });
-       /* dataBr.get('adam').then((body) => {
-            console.log(body._rev);
-        });*/
-      /*  dataBr.head('adam').then((body) => {
-            console.log(body);
-        });*/
 
 },{"nano":369}],257:[function(require,module,exports){
 'use strict';

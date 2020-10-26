@@ -39262,14 +39262,11 @@ function extend() {
         function getRevNum()
         {
             title = document.getElementById('title').value;
-            console.log(typeof title)
             dataBr.get(title).then((body) => {
 
                 revNum = (body._rev).toString()
-                console.log(typeof revNum)
                 insertDoc(revNum)
             });
-
         }
 
         function insertDoc(revisionN)
@@ -39277,10 +39274,8 @@ function extend() {
             var revNo = revisionN
             var reminder = prompt("New Reminder");
 
-           // dataBr.insert({ _id: title.toLowerCase(), _rev: revNo, Title: title, Reminder: reminder }).then((body) => {
             dataBr.insert({ _id: title, _rev: revNo, Title: title, Reminder: reminder }).then((body) => {
-                    console.log("Success")
-
+                    window.alert("Reminder Created Successfully")
                 }
             );
 

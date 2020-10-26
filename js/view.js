@@ -1,12 +1,13 @@
 const nano = require('nano')('http://adam:1234@localhost:5984/')
 const dataBr = nano.use('reminders-app');
 
-dataBr.list({include_docs: true}).then((body,Title, Reminder) => {
-    window.alert(Title)
-    body.rows.forEach((body) => {
+var numReminders = 0;
 
+dataBr.list({include_docs: true}).then((body) => {
+    body.rows.forEach((doc) => {
+        //if(body.Title) {
         var para = document.createElement("p");
-        var node = document.createTextNode(JSON.stringify(Title,Reminder));
+        var node = document.createTextNode(JSON.stringify(doc.doc));
         para.appendChild(node);
 
         var element = document.getElementById("remindersList");
@@ -14,13 +15,18 @@ dataBr.list({include_docs: true}).then((body,Title, Reminder) => {
         element.appendChild(para);
     });
 });
-//function(doc){
-  //  emit(doc._id,{rev:doc._rev});
-//}
-/*  dataBr.head('adam').then((body) => {
-      console.log(body);
-  });*/
 
-dataBr.get('rabbit').then((body) => {
-    console.log(body);
+dataBr.view('allDocs', 'allDocs', {reduce: true}).then((body) => {
+
+    body.rows.forEach((doc) => {
+
+        numReminders += doc.value
+        var para = document.createElement("p");
+        var node = document.createTextNode("You have " + numReminders + " reminders saved");
+        para.appendChild(node);
+
+        var element = document.getElementById("remindersCount");
+
+        element.appendChild(para);
+    });
 });

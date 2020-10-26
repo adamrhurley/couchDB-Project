@@ -39265,7 +39265,6 @@ function extend() {
             dataBr.get(title).then((body) => {
 
                 revNum = (body._rev);
-                console.log(typeof revNum)
                 deleteDoc(revNum);
             });
 
@@ -39278,7 +39277,6 @@ function extend() {
             dataBr.destroy(title,revNo).then((body) => {
                 window.alert("Deleted Succesfully");
             });
-
         }
        // window.history.replaceState({}, document.title, "/" + "couchdb_reminderapp/delete.html");
 
