@@ -1,3 +1,25 @@
+/*
+******************************************
+
+*
+*
+*
+My JavaScript code starts on line #39268 and ends on #39292
+I had to use a service called "browserify" to get node.js to work on the client-side, thats where the rest of the code came from.
+See browserify.org
+
+
+
+
+******************************************
+*/
+
+
+
+
+
+
+
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 
 },{}],2:[function(require,module,exports){
@@ -23543,7 +23565,7 @@ var ThrowTypeError = $gOPD
 	? (function () {
 		try {
 			// eslint-disable-next-line no-unused-expressions, no-caller, no-restricted-properties
-			arguments.callee; // IE 8 does not throw here
+			Function.caller; // IE 8 does not throw here
 			return throwTypeError;
 		} catch (calleeThrows) {
 			try {

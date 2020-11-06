@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="516950c0-771e-48e9-9331-b3792f11830c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/delete.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/deleteBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/deleteBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/indexv2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/indexv2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/update.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/indexv2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/update.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/updateBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/updateBundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/view.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/viewBundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/viewBundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,6 @@
     <setting file="file://$PROJECT_DIR$/js/bundle.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/viewBundle.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/js/deleteBundle.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/js/delete.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1iyAEx3ltZNXs0oK02473FV6MwW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -55,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="10.17.40" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../TTRAngular-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,20 +74,39 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Adam\Desktop\CouchDB_Project\couchdb_reminderapp" />
       <recent name="C:\Users\Adam\Desktop\CouchDB_Project\couchdb_reminderapp\js" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="start" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.start (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.start (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +133,14 @@
       <workItem from="1603647085523" duration="11055000" />
       <workItem from="1603659880911" duration="4354000" />
       <workItem from="1603664466690" duration="834000" />
-      <workItem from="1603713127900" duration="7016000" />
+      <workItem from="1603713127900" duration="7097000" />
+      <workItem from="1604428027257" duration="5262000" />
+      <workItem from="1604438024628" duration="8634000" />
+      <workItem from="1604497854000" duration="343000" />
+      <workItem from="1604518560182" duration="2634000" />
+      <workItem from="1604521856742" duration="815000" />
+      <workItem from="1604601823113" duration="1465000" />
+      <workItem from="1604683506506" duration="1029000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1603210274423</created>
@@ -164,13 +191,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603728276233</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CRUD Working. Possible Networking Issue">
+      <created>1603728837966</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603728837966</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First" />
     <MESSAGE value="Insert Working" />
@@ -181,14 +216,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="CRUD Working. Possible Networking Issue" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1334" y="-437" key="#Inspections" timestamp="1604433044401">
+      <screen x="-1920" y="-635" width="1920" height="1040" />
+    </state>
+    <state x="-1334" y="-437" key="#Inspections/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1604433044401" />
     <state x="-1205" y="-295" key="#Notifications" timestamp="1603192639036">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1205" y="-295" key="#Notifications/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603192639036" />
-    <state x="-1506" y="-460" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603657888432">
+    <state x="-1506" y="-460" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604429421950">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1506" y="-460" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603657888432" />
+    <state x="-1506" y="-460" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1604429421950" />
     <state x="-1155" y="-399" key="#com.intellij.ide.util.MemberChooser" timestamp="1603024077119">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
@@ -197,34 +236,38 @@
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1230" y="-368" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603630180967" />
-    <state x="-1335" y="-629" key="CommitChangelistDialog2" timestamp="1603728268936">
+    <state x="-1335" y="-629" key="CommitChangelistDialog2" timestamp="1603728835564">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1335" y="-629" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603728268936" />
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1603659835935">
+    <state x="-1335" y="-629" key="CommitChangelistDialog2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603728835564" />
+    <state x="-1180" y="-360" key="FileChooserDialogImpl" timestamp="1604428173011">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603659835935" />
-    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1603659835935">
+    <state x="-1180" y="-360" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1604428173011" />
+    <state width="949" height="275" key="GridCell.Tab.0.bottom" timestamp="1604432969177">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603659835935" />
-    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1603659835935">
+    <state width="949" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1604432969177" />
+    <state width="949" height="275" key="GridCell.Tab.0.center" timestamp="1604432969177">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603659835935" />
-    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1603659835935">
+    <state width="949" height="275" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1604432969177" />
+    <state width="949" height="275" key="GridCell.Tab.0.left" timestamp="1604432969177">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state width="1899" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603659835935" />
+    <state width="949" height="275" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1604432969177" />
+    <state width="949" height="275" key="GridCell.Tab.0.right" timestamp="1604432969177">
+      <screen x="-1920" y="-635" width="1920" height="1040" />
+    </state>
+    <state width="949" height="275" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1604432969177" />
     <state x="-1459" y="-470" key="SettingsEditor" timestamp="1603192653457">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
     <state x="-1459" y="-470" key="SettingsEditor/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603192653457" />
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603728304532">
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2" timestamp="1603728847017">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603728304532" />
+    <state x="-1368" y="-386" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.-635.1920.1040@-1920.-635.1920.1040" timestamp="1603728847017" />
     <state x="-1297" y="-410" width="672" height="678" key="search.everywhere.popup" timestamp="1603658373612">
       <screen x="-1920" y="-635" width="1920" height="1040" />
     </state>
